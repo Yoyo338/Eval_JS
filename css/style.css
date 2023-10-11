@@ -27,6 +27,7 @@
 body {
     background: url("./../images/bgHP.webp") repeat;
     font-family: 'Rubik';
+    text-align: center;
 }
 
 main {
@@ -42,6 +43,7 @@ footer {
 #logoHP {
     width: 91.398px;
     height: 100px;
+    padding: 20px;
 }
 
 ul {
@@ -51,14 +53,28 @@ ul {
 }
 
 li {
-    padding-right: 50%;
-    padding-top: 10%;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    width: 100%;
 }
 
 
 
 body header {
-    display: inline-flex;
+    display: flex;
+    padding: 40px;
+    margin: auto;
+    width: fit-content;
 }
 
 body main {
@@ -97,7 +113,7 @@ body main {
     flex-wrap: wrap;
 }
 
-#Frame1 div{
+#Frame1 div {
     flex-wrap: wrap;
 }
 
@@ -176,4 +192,13 @@ hr {
     padding: 20px;
     width: 300px;
     height: 337.19px;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+td{
+    text-align:left;
 }

@@ -43,12 +43,19 @@ Frame1.innerHTML="";
     const HP = newListHP[index];
     let main = document.querySelector("#Frame1");
     let article = document.createElement("article");
+    let image;
+
+    if(HP.image==""){
+        image="./images/BG.jpg";
+    } else{
+        image= HP.image
+    }
 
     article.innerHTML = `
       <div class="characterElement">
       <img
         class="charactersPicture"
-        src="${HP.image}"
+        src="${image}"
         alt="${HP.name}Picture"
       />
       <p>${HP.name}</p>
