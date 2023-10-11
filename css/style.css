@@ -1,40 +1,138 @@
-:root{
-    --light:#FFF6E6;
-    --darkGrey : #3A3A3A;
-    --gold :#B99049;
-    --red : #B71713;
-    --green :#124B10;
-    --blue:#078CB1;
-    --yellow : #E1B50C;
+:root {
+    --light: #FFF6E6;
+    --darkGrey: #3A3A3A;
+    --gold: #B99049;
+    --red: #B71713;
+    --green: #124B10;
+    --blue: #078CB1;
+    --yellow: #E1B50C;
 }
 
 @font-face {
     font-family: 'Rubik';
     src: url("./../font/Rubik-Regular.ttf");
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: 'Rubik';
     src: url("./../font/Rubik-Bold.ttf");
     font-weight: bold;
-  }
-
-*{
-    margin:0;
-    padding:0;
 }
 
-body{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
     background: url("./../images/bgHP.webp") repeat;
     font-family: 'Rubik';
 }
 
-main{
-    background-color: var(--light) ;
+main {
+    background-color: var(--light);
     max-width: 1024px;
-    margin:auto;
+    margin: auto;
 }
 
-footer{
+footer {
     background-color: #000;
+}
+
+#logoHP {
+    width: 91.398px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+body header {
+    display: inline-flex;
+}
+
+body main {
+    padding: 40px;
+    text-align: center;
+}
+
+
+.logoHouse {
+    width: 121px;
+    height: 136px;
+    flex-shrink: 0;
+    margin: 20px;
+}
+
+.charactersPicture {
+    border-radius: 150px;
+    border: 8px solid #B99049;
+    background: url(<path-to-image>), lightgray -1.24px 0px / 101.653% 141.566% no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    padding: 0px;
+}
+
+#logoDiv {
+    text-align: center;
+    background: rgba(185, 144, 73, 0.50);
+}
+
+#Frame1 {
+    display: flex;
+    gap: 64px;
+    margin-top: 40px;
+}
+
+#Frame2 {
+    margin: auto;
+    display: flex;
+    gap: 64px;
+    margin-top: 40px;
+}
+
+h1 {
+    color: #000;
+    font-family: Rubik;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h2 {
+    color: #3A3A3A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h3 {
+    display: flex;
+    width: 900px;
+    height: 46px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+p {
+    color: #B99049;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+hr {
+    border-width: 3px;
+    border-color: #3A3A3A;
+    width: 80%;
 }
