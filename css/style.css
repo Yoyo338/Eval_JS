@@ -97,6 +97,10 @@ body main {
     flex-wrap: wrap;
 }
 
+#Frame1 div{
+    flex-wrap: wrap;
+}
+
 h1 {
     color: #000;
     font-family: Rubik;
