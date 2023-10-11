@@ -42,8 +42,20 @@ footer {
 #logoHP {
     width: 91.398px;
     height: 100px;
-    flex-shrink: 0;
 }
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+}
+
+li {
+    padding-right: 50%;
+    padding-top: 10%;
+}
+
+
 
 body header {
     display: inline-flex;
@@ -135,4 +147,35 @@ hr {
     border-width: 3px;
     border-color: #3A3A3A;
     width: 80%;
+}
+
+#detailCharacter {
+    display: flex;
+    background: rgba(185, 144, 73, 0.50);
+}
+
+#PictureDetailCharacter {
+    width: 215.419px;
+    height: 300px;
+
+}
+
+#divPhotoDetailCharacter {
+    text-align: center;
+    padding: 20px;
+}
+
+.text1 {
+    color: #000;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#LogoHouseDetail {
+    padding: 20px;
+    width: 300px;
+    height: 337.19px;
 }
