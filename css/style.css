@@ -1,0 +1,40 @@
+:root{
+    --light:#FFF6E6;
+    --darkGrey : #3A3A3A;
+    --gold :#B99049;
+    --red : #B71713;
+    --green :#124B10;
+    --blue:#078CB1;
+    --yellow : #E1B50C;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url("./../font/Rubik-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: 'Rubik';
+    src: url("./../font/Rubik-Bold.ttf");
+    font-weight: bold;
+  }
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: url("./../images/bgHP.webp") repeat;
+    font-family: 'Rubik';
+}
+
+main{
+    background-color: var(--light) ;
+    max-width: 1024px;
+    margin:auto;
+}
+
+footer{
+    background-color: #000;
+}
