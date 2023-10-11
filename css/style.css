@@ -94,13 +94,7 @@ body main {
     display: flex;
     gap: 64px;
     margin-top: 40px;
-}
-
-#Frame2 {
-    margin: auto;
-    display: flex;
-    gap: 64px;
-    margin-top: 40px;
+    flex-wrap: wrap;
 }
 
 h1 {
